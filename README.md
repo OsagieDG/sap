@@ -1,19 +1,19 @@
-# sap
-Switch Account Process (SAP) is a tool that simply allows you to switch between your Github accounts without the hassle of SSH. 
+# Switch Account Process (SAP)
+Switch Account Process (SAP) is a tool that allows you to easily switch between multiple GitHub accounts without the hassle of dealing with SSH keys.
 
-- I used a Zsh script because it is my preferred choice, but you can modify the file to use Bash, POSIX, or any other shell of your choice.
+- I used a Zsh script because it is my preferred choice, but you can modify the script to use Bash, POSIX, or any other shell of your choice.
 
 ![sap](https://github.com/osag1e/sap/blob/main/sap.png)
 
-## Prerequisites after switiching account
-You need to generate a Personal Access Token (PAT) from your GitHub account developer settings and store it securely for authentication. You will need it to gain access to any of your Git operations after switching from one of your GitHub accounts to another. This needs to be generated for each of your GitHub accounts.
+## Prerequisites after Switching Accounts
 
-- An example of why you need it is shown in the image below. You will need to use a PAT as you cannot use your github account password to authenticate.
+You need to generate a Personal Access Token (PAT) from your GitHub account's developer settings. Configure the custom permissions you want the PAT to have, set its lifespan, and store it securely for authentication. You will need to generate a PAT for each of your GitHub accounts.
+
+- For instance, as shown in the image below, you will need to use a PAT because you cannot use your GitHub account password to authenticate. For any Git operation, your PAT should be able to authenticate it based on the permissions you granted to that PAT. This is one of the minor inconveniences you have to deal with when using HTTPS over SSH.
 
 ![authenticate](https://github.com/osag1e/sap/blob/main/authenticate.png)
 
-- You can see that the image prompts you to enter username and password. The password which requires a PAT does not show in the terminal when you enter it. This has been configured internally by git for security reasons. 
+- The image shows a prompt for a username and password. The password, which requires a PAT, does not display in the terminal when you enter it. This behavior is configured internally by Git for security reasons.
 
-My 2nd github account [d-outlier](https://github.com/d-outlier)
-
+My second GitHub account is [d-outlier](https://github.com/d-outlier).
 
