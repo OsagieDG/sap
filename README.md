@@ -1,7 +1,7 @@
 # sap
 Switch Account Process (SAP) is a tool that simply allows you to switch between your Github accounts without the hassle of SSH. 
 
-- I used Zsh scripts because it is my preferred choice, but you can modify the repo to use Bash, POSIX, or any other shell of your choice.
+- I used a Zsh script because it is my preferred choice, but you can modify the file to use Bash, POSIX, or any other shell of your choice.
 
 ![sap](https://github.com/osag1e/sap/blob/main/sap.png)
 
