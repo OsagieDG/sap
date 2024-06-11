@@ -1,6 +1,8 @@
 # Switch Account Process (SAP)
 Switch Account Process (SAP) is a tool that allows you to easily switch between multiple GitHub accounts without the hassle of dealing with SSH keys.
 
+- This tool is strictly global and does not affect the built-in Git terminal permissions of IDEs like Visual Studio or JetBrains.
+
 - I used a Zsh script because it is my preferred choice, but you can modify the script to use Bash, POSIX, or any other shell of your choice.
 
 ![sap](https://github.com/osag1e/sap/blob/main/sap.png)
