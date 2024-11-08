@@ -17,5 +17,4 @@ You need to generate a Personal Access Token (PAT) from your GitHub account's de
 
 - The image shows a prompt for a username and password. The password, which requires a PAT, does not display in the terminal when you enter it. This behavior is configured internally by Git for security reasons.
 
-My second GitHub account is [d-outlier](https://github.com/d-outlier).
-
+You can also check out my blog post,['PATs for Secure GitHub Authentication'](https://osag1e.dev/blog1), for further information.  
